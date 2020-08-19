@@ -1,0 +1,4 @@
+name: AFKPlusEventCommands
+version: @version@
+main: net.lapismc.afkpluseventcommands.AFKPlusEventCommands
+api-version: 1.16
