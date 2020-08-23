@@ -14,6 +14,7 @@ public final class AFKPlusEventCommands extends JavaPlugin implements Listener {
     public void onEnable() {
         saveDefaultConfig();
         Bukkit.getPluginManager().registerEvents(this, this);
+        getLogger().info(getName() + " v." + getDescription().getVersion() + " has been enabled");
     }
 
     @EventHandler
