@@ -1,8 +1,9 @@
 # Each command should be a separate item in the list
+# %PLAYER% will be replaced by the players name in the command
 # Also don't include the slash at the start
 # Simply remove commands and comment out an item to disable commands, like AFKAction is by default
 AFKStart:
-  - "say AFKStart"
+  - "say AFKStart for %PLAYER%"
   - "say anther command"
 AFKStop:
   - "say AFKStop"
